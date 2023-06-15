@@ -1,5 +1,5 @@
 var idade = 15;
-var nome = "pedro";
+var nome = "joão";
 
 
 
@@ -9,7 +9,7 @@ if(nome == "joão" || idade > 14) {
     console.log("Não pode entrar")
 }
 
-if(nome == "pedro" && (15 > 20 || 9 == 10)){
+if(nome == "joão" && (15 > 20 || 10 == 10)){
     console.log("Testando");
 } else{
     console.log("Não entrou")
