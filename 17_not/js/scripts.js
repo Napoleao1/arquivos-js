@@ -1,9 +1,15 @@
 if(!false){
-    console.log("Passou")
+    console.log("Passou");
 }
 
-var nome = "Ernani"
+var nome = "Ernani";
 
-if(!(nome == "João")){
-    console.log("Ok")
+if(!(nome == "Ernani")){
+    console.log("Ok");
+}
+
+var idade = 15;
+
+if(!(idade == 15)){
+    console.log("vc tem 15");
 }
