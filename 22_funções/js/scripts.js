@@ -37,3 +37,5 @@ console.log(somaUm);
 
 var somaDois = soma ( 10, 24);
 console.log(somaDois);
+
+console.log(soma(20, 50));
