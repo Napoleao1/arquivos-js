@@ -7,4 +7,18 @@ for(var i = 15; i > 0; i--){
 }
 
 
-console.log("Break");
+console.log("gave the break");
+
+var x = 10;
+
+while(x < 100) {
+
+    x+= 10;
+
+    if(x === 60 || x === 90) {
+        console.log("Continue")
+        continue;
+    }
+    console.log("Testing loop continue " + x);
+
+}
