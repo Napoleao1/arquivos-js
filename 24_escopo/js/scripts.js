@@ -22,4 +22,12 @@ function teste(){
 
 teste();
 
-console.log(z);
+
+
+
+// if não possui escopo local//
+
+if(true) {
+    var p = 1;
+}
+console.log(p);
