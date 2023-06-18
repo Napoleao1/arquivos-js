@@ -21,3 +21,6 @@ console.log(isNaN(20));
 console.log(isNaN('30'));
 
 // MAX_VALUE E MIN_VALUE
+
+console.log(Number.MAX_VALUE);
+console.log(Number.MIN_VALUE);
