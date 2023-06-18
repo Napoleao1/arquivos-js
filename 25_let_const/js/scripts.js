@@ -16,4 +16,15 @@ if(true) {
     const y = 15;
     console.log('const ' + y);
 }
-console.log('let ' + x)
+console.log('let ' + x);
+
+if( 20> 10){
+    const y = 100;
+    console.log('const if 3 ' + y);
+}
+
+for(let x = 0; x < 10; x++){
+   
+    console.log('let for ' + x);
+   
+}
