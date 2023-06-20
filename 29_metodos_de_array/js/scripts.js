@@ -32,3 +32,7 @@ console.log(arr);
 // acessar último elemento do array
 
 console.log(arr[arr.length - 1]);
+
+// isArray
+
+console.log(Array.isArray());
