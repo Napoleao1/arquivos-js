@@ -15,3 +15,20 @@ console.log(arr);
 
 arr.pop();
 console.log(arr);
+
+//unshift
+
+arr.unshift(0);
+arr.unshift('testando métodos');
+
+console.log(arr);
+
+//shift
+
+arr.shift();
+
+console.log(arr);
+
+// acessar último elemento do array
+
+console.log(arr[arr.length - 1]);
