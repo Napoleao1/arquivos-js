@@ -35,4 +35,5 @@ console.log(arr[arr.length - 1]);
 
 // isArray
 
-console.log(Array.isArray());
+console.log(Array.isArray(arr));
+console.log(Array.isArray(5));
