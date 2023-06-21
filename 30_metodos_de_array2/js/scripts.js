@@ -12,3 +12,13 @@ console.log(arr);
 //indexOf
 
 console.log(arr.indexOf(3));
+
+//join
+
+var arr2 = ["o", "gato", "esta", "dormindo"]
+console.log(arr2.join(", "));
+
+
+// reverse
+
+console.log(arr2.reverse())
