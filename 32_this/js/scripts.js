@@ -16,5 +16,5 @@ console.log(paragrafo);
 
 // class
 
-var item = document.getElementsByClassName('item');
-console.log(item[2])
+var itensDaLista = document.getElementsByClassName('item');
+console.log(itensDaLista[2])
