@@ -1,20 +1,33 @@
-// tag
+console.log(this);
 
-var titulo = document.getElementsByTagName('h1')[0];
+let pessoa = {
+    nome: "Ernani",
+    idade: 22,
+    falar: function() {
+        console.log("Olá, você está bem?")
+    },
+    dizerNome: function() {
+        console.log("O meu nome é " + this.nome);
+    },
+    aniversario: function() {
+        this.idade += 1;
+    },
+     saudacao: function(){
+        return 'Sr ' + this.nome;
 
-console.log(titulo);
+    }
+};
 
-var lista = document.getElementsByTagName('li');
+pessoa.dizerNome();
 
-console.log(lista[3]);
+console.log(pessoa.idade);
 
-// id
+pessoa.aniversario();
+pessoa.aniversario();
+pessoa.aniversario();
 
-var paragrafo = document.getElementById('paragrafo');
+console.log(pessoa.idade);
 
-console.log(paragrafo);
 
-// class
-
-var itensDaLista = document.getElementsByClassName('item');
-console.log(itensDaLista[2])
+var sdc = pessoa.saudacao();
+console.log("olá " + sdc);
