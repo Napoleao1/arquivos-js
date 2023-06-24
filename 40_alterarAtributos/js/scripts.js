@@ -8,5 +8,11 @@ var p = document.querySelector("#paragrafo");
 
 p.setAttribute("class", "testando novamente");
 
-console.log(p)
-;
+console.log(p);
+
+
+// remover atributo
+
+var lista = document.querySelector("#lista");
+
+lista.removeAttribute("id");
