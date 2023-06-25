@@ -17,4 +17,13 @@ if(x > 0){
 
 }
 
-//clearinterval
+//clearInterval 
+
+var myInterval = setInterval(function(){
+    console.log("Imprimindo interval");
+}, 500);
+
+setTimeout(function(){
+    console.log("Não precisamos mais repetir!");
+    clearInterval(myInterval);
+}, 1500);
