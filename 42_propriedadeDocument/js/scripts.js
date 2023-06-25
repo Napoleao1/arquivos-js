@@ -12,4 +12,4 @@ console.log(document.URL);
 
 console.log(document.title);
 
-document.title = "aula 42"
+document.title = "aula"
