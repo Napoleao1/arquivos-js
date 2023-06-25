@@ -8,5 +8,19 @@ btn.addEventListener("click", function() {
 
     console.log(this);
 
-    this.style.color = "red"
+    this.style.color = "red";
+
+   
 });
+
+var title = document.querySelector("#title");
+
+title.addEventListener("click", function(){
+    console.log("teste");
+});
+
+var  paragrafo = document.querySelector("#paragrafo");
+
+paragrafo.addEventListener("click", function(){
+    console.log("clicou no paragrafo");
+})
