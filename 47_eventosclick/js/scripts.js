@@ -17,6 +17,11 @@ var title = document.querySelector("#title");
 
 title.addEventListener("click", function(){
     console.log("teste");
+
+    
+var subtitle = document.querySelector(".subtitle");
+
+subtitle.style.display = "none"
 });
 
 var  paragrafo = document.querySelector("#paragrafo");
