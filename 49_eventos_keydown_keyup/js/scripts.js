@@ -1,3 +1,10 @@
-document.addEventListener("keydown", function(event){
-    console.log(event.key);
+document.addEventListener("keydown", function(event) {
+
+    if(event.key === "Enter") {
+        console.log("user press enter");
+    }
+
+    if(event.key === "Control"){
+        console.log("user press ctrl");
+    }
 });
