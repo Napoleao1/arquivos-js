@@ -1,3 +1,3 @@
-document.addEventListener("keydown", function(){
-    console.log("teste");
-})
+document.addEventListener("keydown", function(event){
+    console.log(event.key);
+});
