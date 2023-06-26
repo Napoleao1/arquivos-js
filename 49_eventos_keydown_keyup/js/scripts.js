@@ -8,3 +8,13 @@ document.addEventListener("keydown", function(event) {
         console.log("user press ctrl");
     }
 });
+
+
+// keyup
+
+document.addEventListener("keyup", function(e){
+
+    if(e.key === "Enter"){
+        console.log("user stop press enter")
+    }
+})
