@@ -1,31 +1,15 @@
-var btn = document.querySelector("#btn")
-
-console.log(btn);
-
-btn.addEventListener("click", function() {
-
-    console.log("o usuário clicou");
-
-    console.log(this);
-
-    this.style.color = "red";
-
-   
-});
-
+// evento de mouseover
 var title = document.querySelector("#title");
 
-title.addEventListener("click", function(){
-    console.log("teste");
-
-    
-var subtitle = document.querySelector(".subtitle");
-
-subtitle.style.display = "none"
+title.addEventListener("mouseover", function() {
+    this.style.backgroundColor = "blue";
 });
 
-var  paragrafo = document.querySelector("#paragrafo");
 
-paragrafo.addEventListener("click", function(){
-    console.log("clicou no paragrafo");
-})
+
+// evento de mouseout
+
+title.addEventListener("mouseout", function(){
+
+    this.style.backgroundColor = "white";
+});
